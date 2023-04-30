@@ -86,7 +86,7 @@ const Hero = () => {
                 <Button
                   type="submit"
                   text="Request Early Access"
-                  btnStyle="mr-20 md:px-8 md:py-0 w-[7rem] md:w-auto ml-16 md:ml-0 text-[8px] lg:text-[16px]"
+                  btnStyle="mr-0 md:px-8 md:py-0 w-[11rem] md:w-auto ml-8 md:ml-0 text-[14px] lg:text-[16px]"
                   imageStyle="w-[20px] lg:w-[37px]"
                 />
               </form>
