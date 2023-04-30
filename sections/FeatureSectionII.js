@@ -1,7 +1,7 @@
 import Button from "@/components/Button";
 import Input from "@/components/Input";
 import Image from "next/image";
-import React from "react";
+import React, { useState,useRef } from "react";
 import code from "@/assets/code.png";
 import Tools from "@/assets/Tools.png";
 import Coins from "@/assets/Coins.png";
@@ -9,11 +9,13 @@ import Megaphone from "@/assets/Megaphone.png";
 import Verified from "@/assets/Verified.png";
 import FingerPrint from "@/assets/Fingerprint.png";
 import Conference from "@/assets/Conference.png";
+import emailjs from "@emailjs/browser";
+
 
 const FeatureSectionII = () => {
-  // const [displaySuccessMessage, setDisplaySuccessMessage] = useState(false); 
+  const [displaySuccessMessage, setDisplaySuccessMessage] = useState(false);
 
-  // const form = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,24 +35,49 @@ const FeatureSectionII = () => {
           console.log(error.text);
         }
       );
-      setDisplaySuccessMessage(true)
+    setDisplaySuccessMessage(true);
   };
 
   return (
-    <div className="feature-section-II md:mt-[7rem] mt-8 font-satoshi" id="docs">
+    <div
+      className="feature-section-II md:mt-[7rem] mt-8 font-satoshi"
+      id="docs"
+    >
       <div className="code-generation flex justify-evenly flex-col-reverse md:flex-row">
         <div className="code-info">
-          <h2 className="features-section-2--heading text-center lg:text-justify">Transparent, Secure,<br/> Three Line of Code</h2>
+          <h2 className="features-section-2--heading text-center lg:text-justify">
+            Transparent, Secure,
+            <br /> Three Line of Code
+          </h2>
           <ul className="mt-8 font-normal text-[#8f9bb7] list-disc ml-8">
             <li>Safe & Secure</li>
             <li>Integrate within a minute</li>
             <li>Only enhances your front-end</li>
             <li>No back-end involvement</li>
           </ul>
-          
+
           <div className="request-inbox-email mt-8 flex items-center flex-col lg:flex-row">
-            <Input placeholder="Email" inputStyles="md:w-[309px] w-[295px] h-[57px] lg:mt-4" />
-            <Button type="submit" text="Join our Alpha" btnStyle="ml-8 py-2 mt-2 px-[25px] w-max"/>
+            {displaySuccessMessage ? (
+              <p>Your Request has been recieved , will contact you shortly</p>
+            ) : (
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="flex flex-col gap-4 lg:flex-row"
+              >
+                <Input
+                  type="email"
+                  name="from_name"
+                  placeholder="Email"
+                  inputStyles="md:w-[309px] w-[295px] h-[57px] lg:mt-4"
+                />
+                <Button
+                  type="submit"
+                  text="Join our Alpha"
+                  btnStyle="ml-8 py-2 mt-2 px-[25px] w-max"
+                />
+              </form>
+            )}
           </div>
         </div>
         <div className="code-image">
@@ -98,14 +125,16 @@ const FeatureSectionII = () => {
             <Image src={Verified} alt="Verified" width={46} height={46} />
             <h4 className="list-heading">Auto Verify OnChain Interaction</h4>
             <p className="list-subHeading">
-            No extra steps involved, Automatically track conversion and north star metrics by verifying on-chain actions.
+              No extra steps involved, Automatically track conversion and north
+              star metrics by verifying on-chain actions.
             </p>
           </div>
           <div className="feature-item-top-list">
             <Image src={Megaphone} alt="Coins" width={46} height={46} />
             <h4 className="list-heading">Promote Campaigns</h4>
             <p className="list-subHeading">
-            Promote your campaigns with Buildoor Discover and 500+ partnered communities.
+              Promote your campaigns with Buildoor Discover and 500+ partnered
+              communities.
             </p>
           </div>
         </div>
