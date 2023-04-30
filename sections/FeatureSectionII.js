@@ -7,7 +7,7 @@ import Tools from "@/assets/Tools.png";
 import Coins from "@/assets/Coins.png";
 import Megaphone from "@/assets/Megaphone.png";
 import Verified from "@/assets/Verified.png";
-import FingerPrint from "@/assets/FingerPrint.png";
+import FingerPrint from "@/assets/Fingerprint.png";
 import Conference from "@/assets/Conference.png";
 
 const FeatureSectionII = () => {
