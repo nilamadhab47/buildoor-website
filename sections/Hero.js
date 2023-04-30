@@ -68,7 +68,7 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div className="access-input flex justify-center md:gap-8 gap-4 md:ml-20 ml-12 flex-col md:flex-row">
+          <div className="access-input flex justify-center md:gap-8 gap-4 md:ml-20 items-center flex-col md:flex-row">
             {displaySuccessMessage ? (
               <p>Your Request has been recieved , will contact you shortly</p>
             ) : (
