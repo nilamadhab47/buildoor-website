@@ -11,6 +11,31 @@ import FingerPrint from "@/assets/Fingerprint.png";
 import Conference from "@/assets/Conference.png";
 
 const FeatureSectionII = () => {
+  // const [displaySuccessMessage, setDisplaySuccessMessage] = useState(false); 
+
+  // const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_duutcna",
+        "template_psf504g",
+        form.current,
+        "eqWNXxLHGtKcVk-eE"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      setDisplaySuccessMessage(true)
+  };
+
   return (
     <div className="feature-section-II md:mt-[7rem] mt-8 font-satoshi" id="docs">
       <div className="code-generation flex justify-evenly flex-col-reverse md:flex-row">
@@ -22,6 +47,7 @@ const FeatureSectionII = () => {
             <li>Only enhances your front-end</li>
             <li>No back-end involvement</li>
           </ul>
+          
           <div className="request-inbox-email mt-8 flex flex-col lg:flex-row">
             <Input placeholder="Email" inputStyles="md:w-[309px] w-[295px] h-[57px] lg:mt-4" />
             <Button type="submit" text="Join our Alpha" btnStyle="ml-8 py-2 mt-2 px-[25px] w-max"/>
