@@ -200,6 +200,13 @@ body {
     color: #8F9BB7;
     margin-top: 1rem;
 }
+.list-subHeading1 {
+  font-weight: 400;
+    font-size: 15.7392px;
+    line-height: 24px;
+    color: #8F9BB7;
+    margin-top: 1rem;
+}
 
 .pricing--heading {
   font-weight: 700;
@@ -272,6 +279,9 @@ body {
     font-size: 19px;
   }
   .list-subHeading {
+    font-size: 14px;
+  }
+  .list-subHeading1 {
     font-size: 9px;
   }
   .pricing--heading {
