@@ -6,7 +6,6 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './sections/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: 'class',
   theme: {
     fontFamily: {
       satoshi: "satoshi",
