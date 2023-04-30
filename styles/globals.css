@@ -87,7 +87,9 @@ body {
     border: 1px solid #282D45;
     border-radius: 10px;
 }
-
+.feature-content--top:hover {
+  width: 104%;
+}
 .info-head {
   font-weight: 700;
     font-size: 30px;
