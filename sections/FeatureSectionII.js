@@ -48,7 +48,7 @@ const FeatureSectionII = () => {
             <li>No back-end involvement</li>
           </ul>
           
-          <div className="request-inbox-email mt-8 flex flex-col lg:flex-row">
+          <div className="request-inbox-email mt-8 flex items-center flex-col lg:flex-row">
             <Input placeholder="Email" inputStyles="md:w-[309px] w-[295px] h-[57px] lg:mt-4" />
             <Button type="submit" text="Join our Alpha" btnStyle="ml-8 py-2 mt-2 px-[25px] w-max"/>
           </div>
