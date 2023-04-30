@@ -38,7 +38,7 @@ const Footer = () => {
                   <span className="sr-only">Facebook page</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/buildoorxyz/"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 >
                   <svg
@@ -56,7 +56,7 @@ const Footer = () => {
                   <span className="sr-only">Instagram page</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com/buildoorxyz"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 >
                   <svg
@@ -70,7 +70,7 @@ const Footer = () => {
                   <span className="sr-only">Twitter page</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/buildoorxyz"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 >
                   <svg
@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 ml-12">
                 © 2023{" "}
-                <a href="#home" className="hover:underline">
+                <a href="www.buildoor.xyz" className="hover:underline">
                   BUILDOOR Labs
                 </a>
                 . All Rights Reserved.
@@ -149,12 +149,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://calendly.com/sparkinlife/30min?month=2023-04" className="hover:underline">
                     Request Demo
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="mailto:knock@buildoor.club" className="hover:underline">
                     Contact Us
                   </a>
                 </li>

@@ -19,9 +19,9 @@ const Pricing = () => {
                     <li className='mb-2'>Priority Waitlist to the No-code tool</li>
                     <li>No user limit for Alpha</li>
                 </ul>
-                <div className='pricing--request-access'>
+                <a href="#request"><div className='pricing--request-access cursor-pointer'>
                     Request Access
-                </div>
+                </div></a>
             </div>
             <div className='infinity lg:mt-[-2rem] mt-4'>
                 <div className='lifetime--tag'>
@@ -39,9 +39,9 @@ const Pricing = () => {
                     <li className='mb-2'>Priority Waitlist to the No-code tool</li>
                     <li>No user limit for Alpha</li>
                 </ul>
-                <div className='pricing--request-access' style={{opacity: "1"}}>
+                <a href='#request'><div className='pricing--request-access cursor-pointer' style={{opacity: "1"}}>
                     Request Access
-                </div>
+                </div></a>
             </div>
         </div>
     </div>

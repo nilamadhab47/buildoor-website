@@ -76,6 +76,7 @@ const Hero = () => {
                 ref={form}
                 onSubmit={sendEmail}
                 className="flex flex-col gap-4 lg:flex-row"
+                id="request"
               >
                 <Input
                   placeholder="Enter Email"
