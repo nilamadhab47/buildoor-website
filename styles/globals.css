@@ -275,6 +275,9 @@ body {
   list-style-image: url("../assets/check.png");
     
 }
+.gra{
+  background-image: url("../assets/angular.png")
+}
 .pricing--request-access {
   background: #231D4F;
     mix-blend-mode: normal;
