@@ -43,7 +43,7 @@ const FeatureSectionII = () => {
       className="feature-section-II md:mt-[7rem] mt-8 font-satoshi"
       id="docs"
     >
-      <div className="code-generation flex justify-evenly flex-col-reverse md:flex-row">
+      <div className="code-generation flex justify-center gap-[8rem] flex-col-reverse md:flex-row">
         <div className="code-info">
           <h2 className="features-section-2--heading text-center lg:text-justify">
             Transparent, Secure,
@@ -74,7 +74,7 @@ const FeatureSectionII = () => {
                 <Button
                   type="submit"
                   text="Join our Alpha"
-                  btnStyle="ml-8 py-2 mt-4 px-[25px] w-max h-[57px]"
+                  btnStyle=" py-2 mt-4 px-[25px] w-max h-[57px]"
                 />
               </form>
             )}
