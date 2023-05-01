@@ -275,9 +275,6 @@ body {
   list-style-image: url("../assets/check.png");
     
 }
-.gradient-box{
-  background-image: url("../assets/angular.png")
-}
 .pricing--request-access {
   background: #231D4F;
     mix-blend-mode: normal;
