@@ -11,7 +11,7 @@ const MainCta = () => {
         interface in minutes and integrate within your dApps front-end with a
         three line code.
       </p>
-      <Button text="Schedule a Demo" btnStyle="ml-[31rem] mt-4"/>
+      <Button text="Demo Soon" btnStyle="ml-[31rem] mt-4"/>
     </div>
   );
 };

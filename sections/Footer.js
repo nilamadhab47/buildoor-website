@@ -136,14 +136,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-between lg:mx-[9rem] flex-col lg:flex-row">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 text-center">
                 © 2023{" "}
                 <a href="www.buildoor.xyz" className="hover:underline">
                   BUILDOOR Labs
                 </a>
                 . All Rights Reserved.
               </span>
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 ml-12">
+      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 ml-12 text-center">
             Terms & Services  |  Privacy Policy
               </span>
       </div>

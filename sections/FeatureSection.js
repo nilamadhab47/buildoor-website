@@ -16,18 +16,18 @@ const FeatureSection = () => {
       <div className="feature-content--top flex p-[70px] gap-[104px] isolate mt-12 font-inter ">
         <div className="top--info mt-[5rem]">
           <ul>
-            <li className="info-head">
-              Increse User Engagement
+            <li className="info-head font-inter">
+              Increase User Engagement
               <br />
-              <p className="info-p">Accelerate onboarding, Drive feature adoption</p>
+              <p className="info-p font-inter">Accelerate onboarding, Drive feature adoption</p>
             </li>
-            <li className="info-head">
+            <li className="info-head font-inter">
               Discover User Behaviour
               <br />
-              <p className="info-p">Optimise ux based on tracked metrics</p>
+              <p className="info-p font-inter">Optimise ux based on tracked metrics</p>
             </li>
-            <li className="info-head">
-              Retain more Users <br /> <p className="info-p">Reduce bounce rate & user churn</p>
+            <li className="info-head font-inter">
+              Retain more Users <br /> <p className="info-p font-inter">Reduce bounce rate & user churn</p>
             </li>
           </ul>
         </div>
