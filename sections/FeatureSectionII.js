@@ -43,13 +43,13 @@ const FeatureSectionII = () => {
       className="feature-section-II md:mt-[7rem] mt-8 font-satoshi"
       id="docs"
     >
-      <div className="code-generation flex justify-center gap-[8rem] flex-col-reverse md:flex-row">
+      <div className="code-generation flex justify-center lg:gap-[8rem] gap-[4rem] flex-col-reverse md:flex-row">
         <div className="code-info">
           <h2 className="features-section-2--heading text-center lg:text-justify">
             Transparent, Secure,
             <br /> Three Line of Code
           </h2>
-          <ul className="mt-8 font-normal text-[#8f9bb7] lg:list-disc ml-8 text-center lg:text-justify list-none">
+          <ul className="mt-8 font-normal text-[#8f9bb7] lg:list-disc ml-8 text-center lg:text-justify list-disc list-inside lg:list-outside">
             <li>Safe & Secure</li>
             <li>Integrate within a minute</li>
             <li>Only enhances your front-end</li>

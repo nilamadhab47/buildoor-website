@@ -132,8 +132,12 @@ const Hero = () => {
             className="my-0 mx-auto"
           /> */}
         </div>
-        <div className="gradient-box mt-[-5rem] z-[1] lg:block hidden">
-          <Image src={gradient} alt="gradient" className="w-screen"/>
+        <div className="gradient-box mt-[-3rem] z-[1] lg:flex hidden">
+          {/* <Image src={gradient} alt="gradient" className="w-screen"/> */}
+          {/* <div className="gradient-box-1"></div>
+          <div className="gradient-box-2"></div> */}
+
+
         </div>
       </div>
     </>

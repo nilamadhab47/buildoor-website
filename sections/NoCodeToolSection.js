@@ -75,9 +75,9 @@ const NoCodeToolSection = () => {
               way to create <br />{" "}
               <span className="user-journey font-bold">User Journey</span>
             </p>
-            <li className="mt-8 mb-4">Create In-app guides</li>
-            <li className="mb-4">Help users navigate</li>
-            <li>Accelerate time to value</li>
+            <li className="mt-8 mb-4 ml-[1.6rem] lg:ml-0">Create In-app guides</li>
+            <li className="mb-4 ml-[1.6rem] lg:ml-0">Help users navigate</li>
+            <li className="ml-[1.6rem] lg:ml-0">Accelerate time to value</li>
           </ul>
         </div>
         <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] mx-auto lg:ml-0 lg:mr-0">
