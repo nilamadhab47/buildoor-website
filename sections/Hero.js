@@ -4,9 +4,11 @@ import React, { useRef, useState } from "react";
 import hero from "@/assets/hero.png";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import gradient from "@/assets/angular.png"
 
 const Hero = () => {
   const [displaySuccessMessage, setDisplaySuccessMessage] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const form = useRef();
 
@@ -28,8 +30,12 @@ const Hero = () => {
           console.log(error.text);
         }
       );
-      setDisplaySuccessMessage(true)
+    setDisplaySuccessMessage(true);
   };
+
+  function handleVideoLoad() {
+    setIsLoaded(true);
+  }
 
   return (
     <>
@@ -37,7 +43,7 @@ const Hero = () => {
         className="head-info md:w-[36rem] w-[314px] h-[46px] rounded-[50px] mx-auto my-0 px-[17px] py-[10px] mt-4"
         style={{ border: "1.11739px solid rgba(255, 255, 255, 0.3)" }}
       >
-        <p className="text-center text-[#F2F4F8] font-normal font-satoshi text-[10px] md:text-[16px]">
+        <p className="text-center text-[#F2F4F8] font-normal text-[10px] md:text-[16px] font-satoshiLight">
           noQode by Buildoor - Manifesting User-Centricity in Web3,{" "}
           <a
             className="text-[#FABEFF]"
@@ -87,19 +93,28 @@ const Hero = () => {
                 <Button
                   type="submit"
                   text="Request Early Access"
-                  btnStyle="mr-0 md:px-8 md:py-0 w-[11rem] md:w-auto ml-8 md:ml-0 text-[14px] lg:text-[16px]"
+                  btnStyle="mr-0 md:px-8 md:py-0 w-[11rem] md:w-auto ml-8 md:ml-0 text-[14px] lg:text-[16px] lg:h-57px justify-center"
                   imageStyle="w-[20px] lg:w-[37px]"
                 />
               </form>
             )}
           </div>
         </div>
-        <div className="hero">
+        <div className="hero mt-12 z-[2]">
+          {/* {!isLoaded && (
+            <Image
+              src={hero}
+              alt="hero-image"
+              width={847}
+              height={548}
+              className="my-0 mx-auto"
+            />
+          )} */}
           <video
             autoPlay
             muted
             loop
-            className="w-[847px] h-[548] lg:my-4 my-0 mx-auto hero-video"
+            className="lg:w-[847px] w-[300px] lg:h-[548]  lg:my-4 my-0 lg:mx-auto mx-[10px] hero-video"
           >
             <source
               src="/video.mp4"
@@ -117,9 +132,8 @@ const Hero = () => {
             className="my-0 mx-auto"
           /> */}
         </div>
-        <div className="gradient-box">
-          <div className="gradient-angle1"></div>
-          <div className="gradient-angle2"></div>
+        <div className="gradient-box mt-[-5rem] z-[1] lg:block hidden">
+          <Image src={gradient} alt="gradient" className="w-screen"/>
         </div>
       </div>
     </>

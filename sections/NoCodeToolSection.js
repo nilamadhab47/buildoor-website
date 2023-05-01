@@ -18,8 +18,8 @@ const NoCodeToolSection = () => {
       const scrollY = window.scrollY;
       console.log(scrollY)
 
-      if (scrollY >= 1116) {
-        setPosition({ x: 208, y: 70 });
+      if (scrollY >= 1592) {
+        setPosition({ x: 465, y: 70 });
       } else {
         setPosition({ x: 0, y: 0 });
       }
@@ -34,7 +34,7 @@ const NoCodeToolSection = () => {
 
  
   return (
-    <div className="no-code-tool-section my-16 mx-auto font-satoshi">
+    <div className="no-code-tool-section lg:mt-[-10rem] mt-12 mx-auto font-satoshi z-[1]">
       <div className="no-code--header">
         <h3 className="no-code--header-title font-bold md:text-[40px] text-[20px] text-center ">
           backers and supporters
@@ -60,10 +60,10 @@ const NoCodeToolSection = () => {
         </div>
       </div>
 
-      <div className="no-code flex justify-around flex-col-reverse md:flex-row">
-        <div className="no-code--feature md:mt-20 mt-[-3rem] ml-8 md:ml-0 text-lg">
+      <div className="no-code flex justify-between flex-col-reverse md:flex-row">
+        <div className="no-code--feature md:mt-20 mt-[-7rem] ml-8 md:ml-0 text-lg">
           <ul className="feature-listing">
-            <li className="font-normal text-2xl mb-8 text-[#A594FD] hidden md:block">
+            <li className="font-normal text-2xl mb-8 text-[#A594FD] hidden md:list-item">
               Introducing
             </li>
             <p
@@ -80,27 +80,28 @@ const NoCodeToolSection = () => {
             <li>Accelerate time to value</li>
           </ul>
         </div>
-        <div className="no-code--sample mt-0">
+        <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] ml-[10px] mr-[10px] lg:ml-0 lg:mr-0">
           <Image
             src={interfaceImage}
             alt="interface"
             height={358}
             width={493}
+            className="interface"
           />
           <Button
             text="Connect Wallet"
-            btnStyle="relative lg:top-[-18rem] top-[-12rem] lg:left-[3rem] left-0"
+            btnStyle="relative lg:top-[-18rem] top-[-12rem] lg:left-[-6rem] left-0 lg:w-[235px] lg:h-[57px]"
           />
           <Button
             text="Swap"
-            btnStyle="relative lg:top-[-13rem] top-[-9rem] lg:left-[12rem] left-8 py-[6px] px-12"
+            btnStyle="relative lg:top-[-13rem] top-[-9rem] lg:left-[9rem] left-8 py-[6px] px-12 lg:w-[235px] lg:h-[57px]"
           />
           <Image
             src={tootip}
             alt="tooltip"
-            height={391}
-            width={232}
-            className="relative lg:top-[-18rem] top-[-14rem] md:left-0 left-[-8rem] hidden lg:block"
+            height={232}
+            width={391}
+            className="relative lg:top-[-18rem] top-[-14rem] md:left-[-18rem] left-[-8rem] hidden lg:block"
             style={{ transform: `translate(${position.x}px, ${position.y}px)`, transition: 'transform 0.3s ease-out' }}
           />
           <Image
@@ -108,7 +109,7 @@ const NoCodeToolSection = () => {
             alt="tooltip"
             height={391}
             width={232}
-            className="relative lg:top-[-18rem] top-[-11rem] md:left-0 left-[1rem] lg:hidden"
+            className="relative lg:top-[-18rem] top-[-11rem] md:left-[1rem] left-[1rem] lg:hidden"
           />
                 {/* <motion.img
         src="./tooltip.png"

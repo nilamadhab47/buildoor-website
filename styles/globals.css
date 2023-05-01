@@ -7,9 +7,15 @@
   src: url("../fonts/Satoshi.otf");
 }
 @font-face {
+  font-family: satoshiLight;
+  src: url("../fonts/Satoshi-Light.otf");
+}
+@font-face {
   font-family: inter;
   src: url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 }
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -35,6 +41,28 @@ body {
     rgb(var(--background-start-rgb));
     font-family: satoshi;
 }
+.alpha-tag {
+  font-family: satoshi;
+  width: 62px;
+    height: 18px;
+    background: #B8BBFF;
+    display: block;
+    border-radius: 21px;
+    font-weight: 700;
+    font-size: 11.2px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.205em;
+    position: relative;
+    text-transform: uppercase;
+    top: 3.5rem;
+
+    left: 3.7rem;
+}
+
 .heading-title {
   font-weight: 500;
     font-size: 56px;
@@ -94,7 +122,7 @@ body {
   font-weight: 700;
     font-size: 30px;
     line-height: 34px;
-    color: white;
+    color: #8f9bb7;
     margin-bottom: 1rem;
 }
 
@@ -221,14 +249,21 @@ body {
     text-align: center;
 }
 .pricing-list {
+  font-family: satoshi;
   margin-top: 5rem;
     display: flex;
     width: 1207px;
     height: 574px;
     background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(20.8431px);
     backdrop-filter: blur(20.8431px);
     border-radius: 30.9669px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    border: 1px solid transparent;
+    background: linear-gradient(black, black) padding-box, linear-gradient(35deg, rgba(19, 14, 255,1), rgb(73, 255, 233, 0.4), rgba(255, 255, 255, 0), rgba(255, 44, 247, 0.3), rgba(251, 4, 123, 68.69%), #FF7EBC) border-box;
+    backdrop-filter: blur(20.8431px);
+    padding-top: 4rem;
+
 }
 
 .pricing-feature--list {
@@ -249,6 +284,7 @@ body {
     text-align: center;
     padding: 10px;
 }
+
 .lifetime--tag {
   background: #403879;
     border-radius: 16.079px;
@@ -268,6 +304,9 @@ body {
     border-radius: 25.2px;
 }
 @media screen and ( min-width:320px ) and (max-width:767px) {
+  .hero-video{
+    filter: drop-shadow(0px -2.1px 2.5px rgba(233, 223, 255, 0.3)) drop-shadow(0px -2.1px 42px rgba(187, 155, 255, 0.15));
+  }
   .features-section-2--heading {
     font-size: 33px;
   }
@@ -292,10 +331,40 @@ body {
     .pricing-list {
       flex-direction: column;
     width: auto;
+    background: none;
+    margin-top: 12rem;
+    align-items: center;
     }
     .pricing-feature--list {
     font-weight: 500;
     font-size: 14.8655px;
     }
+    .alpha-tag {
+      width : 45px;
+      height: 14px;
+      top:2rem;
+      left:1.8rem;
+      font-size: 7.2px
+    }
   }
   
+  .cursor {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .interface {
+    filter: drop-shadow(15.7706px -13.6678px 112.497px rgba(248, 0, 59, 0.3)) drop-shadow(-14.7192px 17.3476px 84.1097px rgba(0, 56, 255, 0.3));
+  }
+
+  .coming-soon {
+    display: hidden
+  }
+
+  .btn-compo:hover + .coming-soon {
+    display:block
+  }

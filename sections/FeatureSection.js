@@ -7,14 +7,14 @@ import graph1 from "@/assets/Graph.png"
 
 const FeatureSection = () => {
   return (
-    <div className="feature-section mx-auto my-0 hidden md:block" id="feature">
+    <div className="feature-section mx-auto mt-[-9rem] hidden md:block" id="feature">
       <h2 className="heading-title">
         A Chain Agnostic Layer to
         <br />
         Simplify UX
       </h2>
-      <div className="feature-content--top flex p-[70px] gap-[104px] isolate mt-12">
-        <div className="top--info mt-[7rem]">
+      <div className="feature-content--top flex p-[70px] gap-[104px] isolate mt-12 font-inter ">
+        <div className="top--info mt-[5rem]">
           <ul>
             <li className="info-head">
               Increse User Engagement
@@ -51,7 +51,7 @@ const FeatureSection = () => {
             user privacy
           </p>
           <div className="analytics">
-            <div className="analytics--top flex justify-between mb-8 gap-16">
+            <div className="analytics--top flex justify-center mb-8 gap-8">
                 <div className="analytics--top--info1">
                     <p className="analytics-head">Active Users</p>
                     <p className="text-gray-300"><span className="text-black text-2xl">27</span>/80</p>
@@ -65,7 +65,7 @@ const FeatureSection = () => {
                     <p className="text-black font-bold">2m 35s</p>
                 </div>
             </div>
-            <div className="analytics--bottom flex justify-between mb-8 gap-16">
+            <div className="analytics--bottom flex justify-center mb-8 gap-8">
                 <div className="analytics--top--info1">
                     <p className="analytics-head">Bounce Rate</p>
                     <p className="text-black font-bold">64%</p>

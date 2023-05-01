@@ -3,7 +3,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div className='pricing my-16 mx-auto' id='pricing'>
+    <div className='pricing my-16 mx-auto font-satoshi' id='pricing'>
         <h1 className='pricing--heading'>Pricing</h1>
         <div className='pricing-list'>
             <div className='neo'>
@@ -23,7 +23,7 @@ const Pricing = () => {
                     Request Access
                 </div></a>
             </div>
-            <div className='infinity lg:mt-[-2rem] mt-4'>
+            <div className='infinity lg:mt-[-2rem] mt-4 lg:mr-24 mr-0'>
                 <div className='lifetime--tag'>
                     Most Popular
                 </div>

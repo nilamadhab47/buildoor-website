@@ -49,14 +49,14 @@ const FeatureSectionII = () => {
             Transparent, Secure,
             <br /> Three Line of Code
           </h2>
-          <ul className="mt-8 font-normal text-[#8f9bb7] list-disc ml-8">
+          <ul className="mt-8 font-normal text-[#8f9bb7] lg:list-disc ml-8 text-center lg:text-justify list-none">
             <li>Safe & Secure</li>
             <li>Integrate within a minute</li>
             <li>Only enhances your front-end</li>
             <li>No back-end involvement</li>
           </ul>
 
-          <div className="request-inbox-email mt-8 flex items-center flex-col lg:flex-row">
+          <div className="request-inbox-email mt-8 lg:flex items-center flex-col lg:flex-row hidden">
             {displaySuccessMessage ? (
               <p>Your Request has been recieved , will contact you shortly</p>
             ) : (
@@ -74,14 +74,14 @@ const FeatureSectionII = () => {
                 <Button
                   type="submit"
                   text="Join our Alpha"
-                  btnStyle="ml-8 py-2 mt-2 px-[25px] w-max"
+                  btnStyle="ml-8 py-2 mt-4 px-[25px] w-max h-[57px]"
                 />
               </form>
             )}
           </div>
         </div>
         <div className="code-image">
-          <Image src={code} alt="code" height={327} width={564} />
+          <Image src={code} alt="code" height={327} width={564} className="w-[300px] lg:w-[564px] lg:h-[327px] mx-[10px] lg:mx-0 " />
         </div>
       </div>
 

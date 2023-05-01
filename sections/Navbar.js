@@ -77,6 +77,7 @@ const Navbar = () => {
       ) : (
         <div className="navbar flex justify-between">
           <div className="navbar-logo">
+            <span className="alpha-tag">Alpha</span>
             <Image
               src={logo}
               alt="logo"
@@ -110,9 +111,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-cta md:block hidden">
-            <Button text="schedule Demo" btnStyle="mr-20 mt-12 px-8 py-4" />
+            <Button text="Schedule Demo" btnStyle="mr-20 mt-12 px-8 py-4" />
           </div>
-          <div className="lg:hidden block mt-8 mr-4" onClick={()=>setDisplayMobileNavbar(true)}>
+          <div className="lg:hidden block mt-12 mr-4" onClick={()=>setDisplayMobileNavbar(true)}>
             <Image src={menu} alt="menu" className="mt-" width={35} height={17} />
           </div>
         </div>

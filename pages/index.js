@@ -9,15 +9,17 @@ import FeatureSectionII from "@/sections/FeatureSectionII";
 import Pricing from "@/sections/Pricing";
 import Newsletter from "@/sections/Newsletter";
 import Footer from "@/sections/Footer";
+import MouseCursor from "@/components/MouseCursor";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col justify-between bg-black ${inter.className}`}
+      className={`flex min-h-screen flex-col justify-between bg-black text-white ${inter.className}`}
     >
       <Navbar />
+      {/* <MouseCursor/> */}
       <Hero />
       <NoCodeToolSection />
       <FeatureSection />

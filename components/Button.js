@@ -27,6 +27,7 @@ const Button = ({ text, handleClick, btnStyle, type, imageStyle, href }) => {
   }
 
   return (
+    <>
     <button
       onClick={handleClick}
       style={{
@@ -38,10 +39,12 @@ const Button = ({ text, handleClick, btnStyle, type, imageStyle, href }) => {
           "linear-gradient(black, black) padding-box, linear-gradient(9deg,  rgba(19, 14, 255,1),  rgb(73, 255, 233, 0.4), rgba(255, 255, 255, 0), rgba(255, 44, 247, 0.3), rgba(251, 4, 123, 68.69%), #FF7EBC) border-box",
       }}
       className={`
-           text-white p-3 rounded-[35px] bg-[#0e101c]  ${btnStyle}`}
+           text-white p-3 rounded-[35px] bg-[#0e101c] btn-compo  ${btnStyle}`}
     >
       {text}
     </button>
+    
+    </>
   );
 };
 

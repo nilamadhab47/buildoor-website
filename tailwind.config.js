@@ -9,6 +9,8 @@ module.exports = {
   theme: {
     fontFamily: {
       satoshi: "satoshi",
+      satoshiLight: "satoshiLight",
+      inter:"inter"
     },
     extend: {
       backgroundImage: {

@@ -66,13 +66,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 ml-12">
-                © 2023{" "}
-                <a href="www.buildoor.xyz" className="hover:underline">
-                  BUILDOOR Labs
-                </a>
-                . All Rights Reserved.
-              </span>
+        
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -137,8 +131,21 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+          
           </div>
         </div>
+      </div>
+      <div className="flex justify-between lg:mx-[9rem] flex-col lg:flex-row">
+      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                © 2023{" "}
+                <a href="www.buildoor.xyz" className="hover:underline">
+                  BUILDOOR Labs
+                </a>
+                . All Rights Reserved.
+              </span>
+      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 ml-12">
+            Terms & Services  |  Privacy Policy
+              </span>
       </div>
     </footer>
   );
