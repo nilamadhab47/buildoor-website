@@ -35,7 +35,7 @@ const FeatureSection = () => {
           <Image src={chain} alt="Chain" width={528} height={380} />
         </div>
       </div>
-      <div className="feature-content--bottom flex mt-7 justify-between">
+      <div className="feature-content--bottom flex mt-7 justify-between gap-8">
         <div className="bottom--tooltip">
           <Image src={tool} alt="tool" height={364} width={395} />
           <h3 className="text-3xl font-bold text-[#f6f6f7]">Engaging Immersive Experiences</h3>

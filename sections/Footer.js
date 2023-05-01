@@ -70,10 +70,10 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Quick Links
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400 font-medium">
+              <ul className="text-gray-600 font-medium">
                 <li className="mb-4">
                   <a href="#home" className="hover:underline">
                     Home
@@ -92,10 +92,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Resources
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400 font-medium">
+              <ul className="text-gray-600 font-medium">
                 <li className="mb-4">
                   <a
                     href="#"
@@ -115,10 +115,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
                 Support
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400 font-medium">
+              <ul className="text-gray-600 font-medium">
                 <li className="mb-4">
                   <a href="https://calendly.com/sparkinlife/30min?month=2023-04" className="hover:underline">
                     Request Demo
