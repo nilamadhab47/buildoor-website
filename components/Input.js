@@ -30,7 +30,7 @@ const Input = ({
             border: "1px solid transparent",
         background:
           "linear-gradient(black, black) padding-box, linear-gradient(9deg,  rgba(19, 14, 255,1),  rgb(73, 255, 233, 0.4), rgba(255, 255, 255, 0), rgba(255, 44, 247, 0.3), rgba(251, 4, 123, 68.69%), #FF7EBC) border-box",
-          paddingLeft:" 3rem",
+          paddingLeft:" 2rem",
           }}
           className={`p-3 rounded-[50px] text-sm placeholder-placeHolderTxt bg-black outline-none ${inputStyles}`}
         />
