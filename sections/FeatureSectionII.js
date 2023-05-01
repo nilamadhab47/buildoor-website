@@ -123,7 +123,7 @@ const FeatureSectionII = () => {
           </div>
           <div className="feature-item-top-list">
             <Image src={Verified} alt="Verified" width={46} height={46} />
-            <h4 className="list-heading">Auto Verify OnChain Interaction</h4>
+            <h4 className="list-heading">Auto Verify On-chain Interaction</h4>
             <p className="list-subHeading1">
               No extra steps involved, Automatically track conversion and north
               star metrics by verifying on-chain actions.
