@@ -81,7 +81,7 @@ const FeatureSectionII = () => {
           </div>
         </div>
         <div className="code-image">
-          <Image src={code} alt="code" height={327} width={564} className="w-[300px] lg:w-[564px] lg:h-[327px] mx-[10px] lg:mx-0 " />
+          <Image src={code} alt="code" height={327} width={564} className="w-[300px] lg:w-[564px] lg:h-[327px] mx-auto lg:mx-0 " />
         </div>
       </div>
 

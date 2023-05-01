@@ -80,7 +80,7 @@ const NoCodeToolSection = () => {
             <li>Accelerate time to value</li>
           </ul>
         </div>
-        <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] ml-[10px] mr-[10px] lg:ml-0 lg:mr-0">
+        <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] mx-auto lg:ml-0 lg:mr-0">
           <Image
             src={interfaceImage}
             alt="interface"
