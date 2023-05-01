@@ -7,7 +7,7 @@ import graph1 from "@/assets/Graph.png"
 
 const FeatureSection = () => {
   return (
-    <div className="feature-section mx-auto mt-[-9rem] hidden md:block" id="feature">
+    <div className="feature-section mx-auto mt-[-9rem] lg:mt-[20rem] hidden md:block" id="feature">
       <h2 className="heading-title">
         A Chain Agnostic Layer to
         <br />
