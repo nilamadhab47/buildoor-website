@@ -11,15 +11,15 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center mt-[-3rem]">
-              <Image src={logo} alt="logo" width={322} height={141} />
+              <Image src={logo} alt="logo" width={322} height={141} className="ml-[-3rem] lg:ml-0" />
             </a>
-            <span className="flex mt-[-4rem] ml-16 mb-4">
+            <span className="flex mt-[-4rem] lg:ml-16 ml-0  mb-4">
               backed by{" "}
               <Image src={techstars} alt="techstars" height={35} width={134} />
             </span>
-            <p className="ml-16">Making web3 User-Centric</p>
+            <p className="lg:ml-16 ml-0">Making web3 User-Centric</p>
             <div className="sm:flex sm:items-center sm:justify-between mt-3">
-              <div className="flex mt-3 sm:justify-center sm:mt-0 ml-16 mb-[8rem] gap-2 ">
+              <div className="flex mt-3 sm:justify-center sm:mt-0 lg:ml-16 ml-0 mb-[8rem] gap-2 ">
                 <a
                   href="#"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
