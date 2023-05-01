@@ -67,7 +67,7 @@ const NoCodeToolSection = () => {
               Introducing
             </li>
             <p
-              className="text-[#f1f1ef] font-light text-[3rem]"
+              className="text-[#f1f1ef] font-light text-[3rem] lg:ml-[-1.2rem]"
               style={{ lineHeight: "50px" }}
             >
               {heading}
