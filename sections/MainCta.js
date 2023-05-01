@@ -2,6 +2,10 @@ import Button from "@/components/Button";
 import React from "react";
 
 const MainCta = () => {
+
+  const handleClick = () => {
+    window.location.href = "https://calendly.com/buildoorlabs/15min";
+  }
   return (
     <div className="main-cta font-satoshi hidden md:block">
       <h1 className="text-3xl font-bold text-white text-center mb-8">Learn how Buildoor can help you succeed</h1>
@@ -11,7 +15,7 @@ const MainCta = () => {
         interface in minutes and integrate within your dApps front-end with a
         three line code.
       </p>
-      <Button text="Schedule Demo" btnStyle="ml-[31rem] mt-4" href="https://calendly.com/buildoorlabs/15min"/>
+      <Button text="Schedule Demo" btnStyle="ml-[31rem] mt-4" handleClick={handleClick}/>
     </div>
   );
 };

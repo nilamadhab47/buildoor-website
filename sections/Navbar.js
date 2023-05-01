@@ -28,6 +28,12 @@ const Navbar = () => {
     });
   };
 
+  const handleClick = () => {
+    window.location.href = "https://calendly.com/buildoorlabs/15min";
+  }
+
+
+
   return (
     <>
       {displayMobileNavbar ? (
@@ -111,7 +117,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-cta md:block hidden">
-            <Button text="Schedule Demo" btnStyle="mr-20 mt-12 px-8 py-4" href="https://calendly.com/buildoorlabs/15min"/>
+            <Button text="Schedule Demo" btnStyle="mr-20 mt-12 px-8 py-4"  handleClick={handleClick}/>
           </div>
           <div className="lg:hidden block mt-12 mr-4" onClick={()=>setDisplayMobileNavbar(true)}>
             <Image src={menu} alt="menu" className="mt-" width={35} height={17} />
