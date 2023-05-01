@@ -13,21 +13,21 @@ const FeatureSection = () => {
         <br />
         Simplify UX
       </h2>
-      <div className="feature-content--top flex p-[70px] gap-[104px] isolate mt-12 font-inter ">
+      <div className="feature-content--top flex p-[70px] gap-[104px] isolate mt-12 font-satoshi ">
         <div className="top--info mt-[5rem]">
           <ul>
-            <li className="info-head font-inter">
+            <li className="info-head font-satoshi">
               Increase User Engagement
               <br />
-              <p className="info-p font-inter">Accelerate onboarding, Drive feature adoption</p>
+              <p className="info-p font-satoshi">Accelerate onboarding, Drive feature adoption</p>
             </li>
-            <li className="info-head font-inter">
+            <li className="info-head font-satoshi">
               Discover User Behaviour
               <br />
-              <p className="info-p font-inter">Optimise ux based on tracked metrics</p>
+              <p className="info-p font-satoshi">Optimise ux based on tracked metrics</p>
             </li>
-            <li className="info-head font-inter">
-              Retain more Users <br /> <p className="info-p font-inter">Reduce bounce rate & user churn</p>
+            <li className="info-head font-satoshi">
+              Retain more Users <br /> <p className="info-p font-satoshi">Reduce bounce rate & user churn</p>
             </li>
           </ul>
         </div>
