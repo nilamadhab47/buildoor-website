@@ -23,7 +23,7 @@ const Pricing = () => {
                     Request Access
                 </div></a>
             </div>
-            <div className='infinity lg:mt-[-2rem] mt-4 lg:mr-24 mr-0'>
+            <div className='infinity lg:mt-[-2rem] mt-16 lg:mr-24 mr-0'>
                 <div className='lifetime--tag'>
                     Most Popular
                 </div>
