@@ -81,14 +81,14 @@ const FeatureSectionII = () => {
           </div>
         </div>
         <div className="code-image">
-          <Image src={code} alt="code" height={327} width={564} className="w-[300px] lg:w-[564px] lg:h-[327px] mx-auto lg:mx-0 " />
+          <Image src={code} alt="code" height={327} width={564} className="w-[300px] lg:w-[564px] lg:h-[327px] mx-auto lg:mx-0 " priority={true}/>
         </div>
       </div>
 
       <div className="features-list mt-12">
         <div className="feature-item-top flex justify-center gap-8 flex-col md:flex-row items-center">
           <div className="feature-item-top-list">
-            <Image src={Tools} alt="fingers" width={52} height={46} />
+            <Image src={Tools} alt="fingers" width={52} height={46} priority={true}/>
             <h4 className="list-heading">No - Code Tool</h4>
             <p className="list-subHeading">
               As simple as drag and drop, create Immersive experiences on the
@@ -96,7 +96,7 @@ const FeatureSectionII = () => {
             </p>
           </div>
           <div className="feature-item-top-list">
-            <Image src={FingerPrint} alt="tools" width={46} height={46} />
+            <Image src={FingerPrint} alt="tools" width={46} height={46} priority={true}/>
             <h4 className="list-heading">Privacy Focused Analytics</h4>
             <p className="list-subHeading">
               Get user journey analytics on your dashboard, know the metrics
@@ -104,7 +104,7 @@ const FeatureSectionII = () => {
             </p>
           </div>
           <div className="feature-item-top-list">
-            <Image src={Coins} alt="Coins" width={46} height={46} />
+            <Image src={Coins} alt="Coins" width={46} height={46} priority={true} />
             <h4 className="list-heading">Incentivize Engagement</h4>
             <p className="list-subHeading">
               Trigger multiple incentives in form of tokens, NFTs, XPs everytime
@@ -114,7 +114,7 @@ const FeatureSectionII = () => {
         </div>
         <div className="feature-item-below flex justify-center gap-8 mt-16 flex-col md:flex-row items-center">
           <div className="feature-item-top-list">
-            <Image src={Conference} alt="Conference" width={45} height={42} />
+            <Image src={Conference} alt="Conference" width={45} height={42} priority={true}/>
             <h4 className="list-heading">User Segmentation</h4>
             <p className="list-subHeading">
               Segment / Customize and display immersive flows based on Wallet
@@ -122,7 +122,7 @@ const FeatureSectionII = () => {
             </p>
           </div>
           <div className="feature-item-top-list">
-            <Image src={Verified} alt="Verified" width={46} height={46} />
+            <Image src={Verified} alt="Verified" width={46} height={46} priority={true}/>
             <h4 className="list-heading">Auto Verify On-chain Interaction</h4>
             <p className="list-subHeading1">
               No extra steps involved, Automatically track conversion and north
@@ -130,7 +130,7 @@ const FeatureSectionII = () => {
             </p>
           </div>
           <div className="feature-item-top-list">
-            <Image src={Megaphone} alt="Coins" width={46} height={46} />
+            <Image src={Megaphone} alt="Coins" width={46} height={46} priority={true}/>
             <h4 className="list-heading">Promote Campaigns</h4>
             <p className="list-subHeading">
               Promote your campaigns with Buildoor Discover and 500+ partnered

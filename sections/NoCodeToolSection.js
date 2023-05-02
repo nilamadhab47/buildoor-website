@@ -87,6 +87,7 @@ const NoCodeToolSection = () => {
             height={358}
             width={493}
             className="interface"
+            priority={true}
           />
           <Button
             text="Connect Wallet"
@@ -103,6 +104,7 @@ const NoCodeToolSection = () => {
             width={391}
             className="relative lg:top-[-18rem] top-[-14rem] md:left-[-18rem] left-[-8rem] hidden lg:block"
             style={{ transform: `translate(${position.x}px, ${position.y}px)`, transition: 'transform 0.3s ease-out' }}
+            priority={true}
           />
           <Image
             src={tootip}
@@ -110,6 +112,7 @@ const NoCodeToolSection = () => {
             height={391}
             width={232}
             className="relative lg:top-[-18rem] top-[-11rem] md:left-[1rem] left-[1rem] lg:hidden"
+            priority={true}
           />
                 {/* <motion.img
         src="./tooltip.png"

@@ -32,12 +32,12 @@ const FeatureSection = () => {
           </ul>
         </div>
         <div className="top--image">
-          <Image src={chain} alt="Chain" width={528} height={380} />
+          <Image src={chain} alt="Chain" width={528} height={380} priority={true}/>
         </div>
       </div>
       <div className="feature-content--bottom flex mt-7 justify-between gap-8">
         <div className="bottom--tooltip">
-          <Image src={tool} alt="tool" height={364} width={395} />
+          <Image src={tool} alt="tool" height={364} width={395} priority={true}/>
           <h3 className="text-3xl font-bold text-[#f6f6f7]">Engaging Immersive Experiences</h3>
           <p className="text-[#8f9bb7]">
             Drag and Drop to create an engaging user journey in minutes with our
@@ -73,13 +73,13 @@ const FeatureSection = () => {
                 <div className="analytics--top--info1">
                     <p className="analytics-head">Completion Rate</p>
                     <p className="text-blackl font-bold">86%</p>
-                    <Image src={graph} alt="graph" width="fill" height="fill" />
+                    <Image src={graph} alt="graph" width="fill" height="fill" priority={true}/>
 
                 </div>
                 <div className="analytics--top--info1">
                     <p className="analytics-head">Increse Engagement</p>
                     <p className="text-black font-bold">+34%</p>
-                    <Image src={graph1} alt="graph" width="fill" height="fill"  />
+                    <Image src={graph1} alt="graph" width="fill" height="fill"  priority={true}/>
 
                 </div>
             </div>

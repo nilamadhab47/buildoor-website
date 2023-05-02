@@ -90,6 +90,7 @@ const Navbar = () => {
               height={190}
               width={320}
               className="w-[180px] h-[108px] lg:w-[320px] lg:h-[190px]"
+              priority={true}
             />
           </div>
           <div className="sub-navbar md:block hidden">
@@ -120,7 +121,7 @@ const Navbar = () => {
             <Button text="Schedule Demo" btnStyle="mr-20 mt-12 px-8 py-4"  handleClick={handleClick}/>
           </div>
           <div className="lg:hidden block mt-12 mr-4" onClick={()=>setDisplayMobileNavbar(true)}>
-            <Image src={menu} alt="menu" className="mt-" width={35} height={17} />
+            <Image src={menu} alt="menu" className="mt-" width={35} height={17} priority={true}/>
           </div>
         </div>
       )}
