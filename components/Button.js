@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import icon from "@/assets/icon.png"
@@ -20,7 +21,7 @@ const Button = ({ text, handleClick, btnStyle, type, imageStyle, href }) => {
         className={`
              text-white lg:p-3 p-[6px] rounded-[35px] bg-[#0e101c] flex lg:gap-4 gap-1 items-center  ${btnStyle}`}
       >
-        {text}<Image src={icon} alt="icon" width="fill" height="fill" className={`${imageStyle}`}/>
+        {text}<img src="/icon.png" alt="icon" className={`${imageStyle}`}/>
       </button>
       </a>
     );

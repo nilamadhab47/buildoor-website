@@ -67,7 +67,7 @@ const Hero = () => {
               No-Code tool to create <br /> Impactful User Experiences
             </h1>
             <div className="subHeading">
-              <ul className="flex justify-center gap-8 list-disc lg:mb-16 mb-8 text-[7px] md:text-[16px] ">
+              <ul className="flex justify-center lg:gap-8 gap-4 list-disc lg:mb-16 mb-8 text-[9px] md:text-[16px] ">
                 <li>Customise User Flows</li>
                 <li>Grab User Attention</li>
                 <li>Drive Feature Adoption</li>

@@ -81,13 +81,12 @@ const NoCodeToolSection = () => {
           </ul>
         </div>
         <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] mx-auto lg:ml-0 lg:mr-0">
-          <Image
-            src={interfaceImage}
+          <img
+            src="interface-image.png"
             alt="interface"
-            height={358}
-            width={493}
-            className="interface"
-            priority={true}
+          
+            className="interface w-[300px] lg:w-[473px] lg:h-[458px]"
+           
           />
           <Button
             text="Connect Wallet"
