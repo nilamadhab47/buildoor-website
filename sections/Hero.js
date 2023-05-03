@@ -114,6 +114,7 @@ const Hero = () => {
             autoPlay
             muted
             loop
+            playsInline
             className="lg:w-[847px] w-[300px] lg:h-[548]  lg:my-4 my-0 lg:mx-auto mx-[10px] hero-video"
           >
             <source
