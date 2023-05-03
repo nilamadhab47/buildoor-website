@@ -82,10 +82,10 @@ const NoCodeToolSection = () => {
         </div>
         <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] mx-auto lg:ml-0 lg:mr-0">
           <img
-            src="interface-image.png"
+            src="interfaceimage.png"
             alt="interface"
           
-            className="interface w-[300px] lg:w-[473px] lg:h-[458px]"
+            className="interface w-[300px] lg:w-[473px] lg:h-[458px]" 
            
           />
           <Button
