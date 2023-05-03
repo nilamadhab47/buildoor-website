@@ -117,6 +117,12 @@ const Hero = () => {
             className="lg:w-[847px] w-[300px] lg:h-[548]  lg:my-4 my-0 lg:mx-auto mx-[10px] hero-video"
           >
             <source
+              src="/video.webm"
+              type="video/webm"
+              width={847}
+              height={548}
+            />
+            <source
               src="/video.mp4"
               type="video/mp4"
               width={847}
