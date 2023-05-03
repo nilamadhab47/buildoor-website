@@ -100,7 +100,7 @@ const Hero = () => {
             )}
           </div>
         </div>
-        <div className="hero mt-12 z-[2]">
+        <div className="hero mt-12 z-[2] flex justify-center items-center">
           {/* {!isLoaded && (
             <Image
               src={hero}
@@ -115,7 +115,7 @@ const Hero = () => {
             muted
             loop
             playsInline
-            className="lg:w-[847px] w-[300px] lg:h-[548]  lg:my-4 my-0 lg:mx-auto mx-[10px] hero-video"
+            className="lg:w-[847px] w-[300px] lg:h-[548]  lg:my-4 my-0 lg:mx-auto hero-video"
           >
             <source
               src="/video.webm"
