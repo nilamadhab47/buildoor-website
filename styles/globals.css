@@ -247,7 +247,7 @@ body {
 .list-heading-1 {
   margin-top: 1rem;
   font-weight: 700;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 31px;
   letter-spacing: -0.03em;
   color: #f6f6f7;
@@ -266,7 +266,7 @@ body {
   font-size: 15.7392px;
   line-height: 24px;
   color: #8f9bb7;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .pricing--heading {
