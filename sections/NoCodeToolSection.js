@@ -5,6 +5,7 @@ import aave from "@/assets/aave.png";
 import polygon from "@/assets/polygon.png";
 import techstars from "@/assets/techstars.png";
 import tootip from "@/assets/tooltip.png";
+import magical from "@/assets/magical.png"
 import interfaceImage from "@/assets/interface-image.png";
 import Image from "next/image";
 import Button from "@/components/Button";
@@ -80,12 +81,12 @@ const NoCodeToolSection = () => {
             <li className="ml-[1.6rem] lg:ml-0">Accelerate time to value</li>
           </ul>
         </div>
-        <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] mx-auto lg:ml-0 lg:mr-0">
+        <div className="no-code--sample lg:mt-[5rem] mt-[3rem] w-[300px] lg:w-[493px] lg:h-[358px] mx-auto lg:ml-0 lg:mr-0 relative">
           <img
             src="interfaceimage.png"
             alt="interface"
           
-            className="interface w-[300px] lg:w-[473px] lg:h-[458px]" 
+            className="interface w-[300px] lg:w-[473px] lg:h-[458px] relative" 
            
           />
           <Button
@@ -106,7 +107,7 @@ const NoCodeToolSection = () => {
             priority={true}
           />
           <Image
-            src={tootip}
+            src={magical}
             alt="tooltip"
             height={391}
             width={232}

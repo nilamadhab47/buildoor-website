@@ -74,14 +74,14 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div className="access-input flex justify-center md:gap-8 gap-4 md:ml-20 items-center flex-col md:flex-row">
+          <div className="access-input flex justify-center md:gap-8 gap-4 md:ml-20 items-center flex-col md:flex-row relative">
             {displaySuccessMessage ? (
               <p>Your Request has been recieved , will contact you shortly</p>
             ) : (
               <form
                 ref={form}
                 onSubmit={sendEmail}
-                className="flex flex-col gap-4 lg:flex-row"
+                className="flex flex-col gap-4 lg:flex-row relative"
                 id="request"
               >
                 <Input
